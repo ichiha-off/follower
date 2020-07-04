@@ -9,6 +9,14 @@
 			<th>introduction</th>
 			<th><%= user.introduction %></th>
 		</tr>
+		<tr>
+			<th>Follow</th>
+			<th><%= user.followings.count %></th>
+		</tr>
+		<tr>
+			<th>Follower</th>
+			<th><%= user.followers.count %></th>
+		</tr>
 	</tbody>
 </table>
 
